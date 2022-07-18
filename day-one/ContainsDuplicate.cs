@@ -1,4 +1,4 @@
-﻿namespace Day_One
+﻿namespace DayOne
 {
     public static class ContainsDuplicate
     {

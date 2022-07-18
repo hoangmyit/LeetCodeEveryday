@@ -1,13 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-bool IsContainsDuplicate(int []arr) {
-  // See https://aka.ms/new-console-template for more information
-  Dictionary<int, bool> checkedTable = new Dictionary<int, bool>();
-  foreach(int item in arr){
-    if (checkedTable.ContainsKey(item))
-    {
-      return true;
-    }
-    checkedTable.Add(item, true);
-  }
-  return false;
-}
+﻿using DayOne;
+
+int[] arr = new int[] {
+    1,1,1,3,3,4,3,2,4,2
+};
+
+Console.WriteLine("HashSet");
+Console.WriteLine(ContainsDuplicate.CheckingByHashSet(arr) ? "This array is a duplicated array." : "This array don't contain any duplicated item.");
+
+Console.WriteLine("Dictionary");
+Console.WriteLine(ContainsDuplicate.CheckingByDictionary(arr) ? "This array is a duplicated array." : "This array don't contain any duplicated item.");
