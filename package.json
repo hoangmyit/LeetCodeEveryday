@@ -1,0 +1,14 @@
+{
+  "name": "do_leet_code",
+  "version": "1.0.0",
+  "description": "Day by day, try my best to resolve leet code problems",
+  "repository": "https://github.com/hoangmyit/LeetCodeEveryday.git",
+  "author": "My Hoang",
+  "license": "MIT",
+  "dependencies": {
+    "markserv": "^1.17.4"
+  },
+  "scripts": {
+    "serve": "yarn markserv readme.md"
+  }
+}
