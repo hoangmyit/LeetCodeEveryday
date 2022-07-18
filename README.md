@@ -22,6 +22,6 @@ npm run serve
 
 ### Day 1
 
-- [Contains Duplicate](day_one/day-one.md)
+- [Contains Duplicate](day-one/day-one.md)
   
-  ![ContainsDuplicate](assets/day1_contain_duplicate.png)
+  ![ContainsDuplicate](assets/day1-contain-duplicate.png)
