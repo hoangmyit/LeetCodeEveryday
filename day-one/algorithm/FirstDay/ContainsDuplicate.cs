@@ -1,4 +1,4 @@
-﻿namespace DayOne
+﻿namespace DayOne.FirstDay
 {
     public class ContainsDuplicate
     {
