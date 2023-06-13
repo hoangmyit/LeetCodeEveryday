@@ -1,21 +1,27 @@
 using BenchmarkDotNet.Attributes;
-
+using DayOne;
+[MemoryDiagnoser]
 public class ContainsDuplicateBenchmark
 {
-    [GlobalSetup]
-    public void GlobalSetup()
-    {
-        //Write your initialization code here
-    }
+  private ContainsDuplicate _containDuplicate;
+  private int[] arr;
+  [GlobalSetup]
+  public void GlobalSetup()
+  {
+    _containDuplicate = new ContainsDuplicate();
+    arr = new int[] {
+        1,5,12,23,34,42,36,2,4,2
+    };
+  }
 
-    [Benchmark]
-    public void MyFirstBenchmarkMethod()
-    {
-        //Write your code here   
-    }
-    [Benchmark]
-    public void MySecondBenchmarkMethod()
-    {
-        //Write your code here
-    }
+  [Benchmark]
+  public void ContainsDuplicateDictionaryBenchmark()
+  {
+    _containDuplicate.CheckingByDictionary(arr);
+  }
+  [Benchmark]
+  public void ContainsDuplicateHashBenchmark()
+  {
+    _containDuplicate.CheckingByHashSet(arr);
+  }
 }
