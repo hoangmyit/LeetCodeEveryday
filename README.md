@@ -1,6 +1,18 @@
 # Leet Code Everyday
 
-## Set up
+## Data Structure I
+
+### Resolve Problem
+
+#### Day 1
+
+- [Contains duplicate (easy)](day-one/day-one.md)
+  
+  ![ContainsDuplicate](assets/day1-contain-duplicate.png)
+- [Maximum sub array (medium)](day-one/day-one.md)
+  ![MaximumSubArray](assets/day1-max-sub-array.png)
+
+### Set up document
 
 - Install
 
@@ -17,11 +29,3 @@ yarn serve
 // or
 npm run serve
 ```
-
-## Resove Problem
-
-### Day 1
-
-- [Contains Duplicate (easy)](day-one/day-one.md)
-  
-  ![ContainsDuplicate](assets/day1-contain-duplicate.png)
