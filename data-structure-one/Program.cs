@@ -1,6 +1,6 @@
 ﻿using BenchmarkDotNet.Configs;
 using BenchmarkDotNet.Running;
-using MyBenchmark.DayOne;
+using MyBenchmark.FirstDay;
 
 namespace DataStructureOne
 {
@@ -13,7 +13,7 @@ namespace DataStructureOne
       BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly)
       .Run(args, new DebugInProcessConfig());
 #endif
-      // var containsDuplicateSummary = BenchmarkRunner.Run(typeof(ContainsDuplicateBenchmark));
+      var containsDuplicateSummary = BenchmarkRunner.Run(typeof(ContainsDuplicateBenchmark));
       var maximumSubArraySummary = BenchmarkRunner.Run(typeof(MaximumSubArrayBenchmark));
     }
   }

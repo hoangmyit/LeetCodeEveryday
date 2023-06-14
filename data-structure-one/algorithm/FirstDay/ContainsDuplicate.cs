@@ -1,4 +1,4 @@
-﻿namespace DayOne.FirstDay
+﻿namespace DataStructureOne.FirstDay
 {
     public class ContainsDuplicate
     {

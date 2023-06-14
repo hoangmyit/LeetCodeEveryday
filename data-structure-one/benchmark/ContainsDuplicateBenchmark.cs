@@ -1,7 +1,7 @@
 using BenchmarkDotNet.Attributes;
-using DayOne.FirstDay;
+using DataStructureOne.FirstDay;
 
-namespace MyBenchmark.DayOne
+namespace MyBenchmark.FirstDay
 {
   [MemoryDiagnoser]
   public class ContainsDuplicateBenchmark
