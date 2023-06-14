@@ -1,5 +1,11 @@
 # Leet Code Everyday
 
+## Run file
+
+```powershell
+dotnet run --filter *
+```
+
 ## Data Structure I
 
 ### Resolve Problem
