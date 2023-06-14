@@ -3,7 +3,7 @@
 ## Run file
 
 ```powershell
-dotnet run --filter *
+dotnet run -c Release --filter *
 ```
 
 ## Data Structure I
